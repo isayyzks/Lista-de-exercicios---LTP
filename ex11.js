@@ -35,9 +35,10 @@ class Musica {
 }
 
 const itens = [
-    new Livro("Dom Casmurro", "Machado de Assis", 256),
+    new Livro("A hipótese do amor", "Ali Hazelwood", 331),
     new Filme("Como Perder um Homem em 10 Dias", "Donald Petrie", 116),
     new Musica("Cê Tá Bem", "Dfideliz", 180)
 ];
 
 itens.forEach(item => console.log(item.toString()));
+
